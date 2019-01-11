@@ -1,0 +1,92 @@
+html, body { height: 100%; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(65, 100, 80, 0.8),
+        rgba(33, 20, 100, 0.8)), url(./matt-ragland-493335-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(white, .5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all .3s;
+    margin-bottom: 10px;
+}
+
+button {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.63);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+
+ul {
+    width: 50%;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+li span {
+    margin: auto;
+    color: white;
+}
+
+li input {
+    float: left;
+}
+
+li button {
+    float: right;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 3rem;
+}
